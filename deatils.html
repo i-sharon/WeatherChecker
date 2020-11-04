@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Weather App</title>
+<style>
+.heading{
+
+    color:white;
+  text-align: center;
+  background-color:#74ca52;
+  padding: 30px;
+  font-size:40px; 
+  
+  
+}
+
+h2{
+
+}
+.button {
+  background-color: #49b91d; 
+  color: black; 
+  border: 1px solid #74ca52;
+   padding: 8px 8px;
+  margin: 8px 0;
+}
+.button:hover {
+  background-color:#74ca52;
+  color: white;
+}
+input[type=text] {
+
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.align{
+    text-align: center;
+}
+
+</style>    
+</head>
+<body>
+
+    <h2 class="heading" > Current Weather </h2>
+<div class="align">
+    
+            <input type="text" name="city" id="city" placeholder="Enter City" ><br><br>
+            <button id="submitCity" class="button">Show Weather</button>
+    <div class="box" id="showWeather"></div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>        
+     
+<script src="temp.js"></script>   
+      
+</body>
+</html>
